@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.get("/")
 def about():
-    me={
+    me = {
         "first_name": "Daisha",
         "last_name": "McCutcheon",
         "hobbies": "All things art",
